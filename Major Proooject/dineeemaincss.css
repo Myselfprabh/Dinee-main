@@ -1,0 +1,99 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color:  #D6F7E7;      
+  
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+  font-size: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dine-logo{
+  display: flex;
+  align-items: center;
+}
+.dine-logo span{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.dine-logo img{
+  width: 80px;
+  height: 80px;
+}
+.nav-elements{
+  padding-inline: 2rem;
+  align-items: center;
+  display: flex;
+  gap:2rem;
+}
+.scrubber img{
+  width: 1510px;
+  height: 500px;
+
+}
+.demand-text{
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:0.5rem;
+}
+input[type="text"]{
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 5px #00000096;
+  padding:1rem;
+  width: 300px;
+  border-radius: 36px;
+}
+::placeholder{
+  font-size: 1rem;
+}
+.cards{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards div{
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.cards div img{
+  width: 175px;
+  height: 175px;
+}
+.card-area{
+  padding:1rem;
+}
+.offers-card{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.offer-heading{
+  text-align: center;
+}
+.offr-card{
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+}
+.personal-care{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.personal-cards{
+  display: flex;
+  gap:2rem;
+}
