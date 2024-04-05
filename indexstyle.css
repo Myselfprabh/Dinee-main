@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  html
+  {
+    font-size: 62.5%;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+}
+
+.nav-elements{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.nav-logo{
+ 
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo img{
+  margin-top: 2rem;  
+    width: 250px;
+}
+.card1{
+  width: 100%;
+}
+.CARD1{
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.CARD1 p{
+  font-weight: 700;
+}
+.CARD{
+  padding: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-area{
+  padding: 2rem;
+}
+.personal-care{
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.personal-care div{
+  font-size: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  padding: 5rem;
+  display: flex;
+  border-radius: 18px;
+  border: 1px solid #ccc;
+}
